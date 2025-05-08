@@ -59,7 +59,7 @@ navi.addEventListener('click',function(){
     setTimeout(opacidadePos350, 200, this.style);
     setTimeout(opacidadePos325, 250, this.style);
     setTimeout(desaparecerPos3, 300, this.style);
-    if(!bso.play){bso.play()};
+    bso.play();
     
    
 
